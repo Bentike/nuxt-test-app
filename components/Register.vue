@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>SignUp Page</h1>
+        <h1  class="text-3xl font-bold underline">SignUp Page</h1>
     </div>
 </template>
 
