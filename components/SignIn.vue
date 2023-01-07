@@ -1,6 +1,11 @@
 <template>
-    <div>
-        <h1  class="text-3xl font-bold underline">SignIn Page</h1>
+    <div class="w-full">
+        <div class="w-1/2 bg-slate-500">
+             one
+        </div>
+        <div class="w-1/2 bg-myBlue">
+             two
+        </div>
     </div>
 </template>
 
