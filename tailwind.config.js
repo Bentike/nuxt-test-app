@@ -13,6 +13,9 @@ module.exports = {
        "myGray": "#939393",
        "white": "#fff"
     },
+    letterSpacing: {
+       wide: '2.5px',
+    },
     extend: {},
   },
   plugins: [],
