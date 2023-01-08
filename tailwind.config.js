@@ -11,7 +11,8 @@ module.exports = {
     colors: {
        "myBlue": "#18345E",
        "myGray": "#939393",
-       "white": "#fff"
+       "white": "#fff",
+       "lightBlue": "#22C1DC"
     },
     letterSpacing: {
        wide: '2.5px',
