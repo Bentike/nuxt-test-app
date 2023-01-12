@@ -12,7 +12,9 @@ module.exports = {
        "myBlue": "#18345E",
        "myGray": "#939393",
        "white": "#fff",
-       "lightBlue": "#22C1DC"
+       "lightBlue": "#22C1DC",
+       "inputGray": "#F4F2F2",
+       "btnYellow": "#F0AB20"
     },
     letterSpacing: {
        wide: '2.5px',

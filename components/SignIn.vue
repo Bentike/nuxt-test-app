@@ -9,16 +9,16 @@
             </div>
         </div>
         <div class="w-1/2 bg-white  h-screen flex items-center justify-center">
-             <div class="w-4/6 text-center m-auto">
-                 <h1 class="text-4xl text-myBlue">Sign In</h1>
+             <div class="w-4/6 text-center m-auto p-5">
+                 <h1 class="text-4xl text-myBlue mb-5">Sign In</h1>
                  <form>
                     <label>Email <br/>
-                        <input type="email" placeholder="johndoe@gmail.com"/>
+                        <input class="w-full p-3 bg-inputGray" type="email" placeholder="johndoe@gmail.com"/>
                     </label> <br/><br/>
                     <label>Password <br/>
-                        <input type="password" placeholder="***************"/>
+                        <input class="w-full p-3 bg-inputGray" type="password" placeholder="***************"/>
                     </label> <br/><br/>
-                    <button>Sign In</button>
+                    <button class="w-full bg-btnYellow p-3 mb-3">Sign In</button>
                     <p>Don’t have an account? <span class="text-lightBlue">Sign Up</span></p>
                  </form>
              </div>
