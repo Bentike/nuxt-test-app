@@ -11,16 +11,16 @@
         </div>
         <div class="w-1/2 bg-white  h-screen flex items-center justify-center">
              <div class="w-4/6 text-center m-auto">
-                 <h1 class="text-4xl text-myBlue">Create Account</h1>
+                 <h1 class="text-4xl text-myBlue mb-5 place-self-start">Create Account</h1>
                  <form>
-                    <label>Email <br/>
-                        <input type="email" placeholder="johndoe@gmail.com"/>
+                    <label class="text-myBlue font-medium inline-block w-full text-start">Email <br/>
+                        <input class="w-full p-3 bg-inputGray" type="email" placeholder="johndoe@gmail.com"/>
                     </label> <br/><br/>
-                    <label>Password <br/>
-                        <input type="password" placeholder="***************"/>
+                    <label class="text-myBlue font-medium inline-block w-full text-start">Password <br/>
+                        <input class="w-full p-3 bg-inputGray" type="password" placeholder="***************"/>
                     </label> <br/><br/>
-                    <button>Sign Up</button>
-                    <p>Already a member? <span class="text-lightBlue">Sign In</span></p>
+                    <button class="w-full bg-btnYellow p-3 mb-3">Sign Up</button>
+                    <p><span class="opacity-60">Don’t have an account?</span> <span class="text-lightBlue">Sign In</span></p>
                  </form>
              </div>
         </div>

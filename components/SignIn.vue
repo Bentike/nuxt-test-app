@@ -19,7 +19,7 @@
                         <input class="w-full p-3 bg-inputGray" type="password" placeholder="***************"/>
                     </label> <br/><br/>
                     <button class="w-full bg-btnYellow p-3 mb-3">Sign In</button>
-                    <p>Don’t have an account? <span class="text-lightBlue">Sign Up</span></p>
+                    <p><span class="opacity-60">Don’t have an account?</span> <span class="text-lightBlue">Sign Up</span></p>
                  </form>
              </div>
         </div>
