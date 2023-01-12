@@ -9,8 +9,8 @@
             </div>
         </div>
         <div class="w-1/2 bg-white  h-screen flex items-center justify-center">
-             <div class="w-4/6 text-center m-auto p-5">
-                 <h1 class="text-4xl text-myBlue mb-5">Sign In</h1>
+             <div class="w-4/6 text-center m-auto p-5 flex flex-col">
+                 <h1 class="text-4xl text-myBlue mb-5 place-self-start">Sign In</h1>
                  <form>
                     <label class="text-myBlue font-medium">Email <br/>
                         <input class="w-full p-3 bg-inputGray" type="email" placeholder="johndoe@gmail.com"/>
