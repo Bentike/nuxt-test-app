@@ -12,10 +12,10 @@
              <div class="w-4/6 text-center m-auto p-5 flex flex-col">
                  <h1 class="text-4xl text-myBlue mb-5 place-self-start">Sign In</h1>
                  <form>
-                    <label class="text-myBlue font-medium">Email <br/>
+                    <label class="text-myBlue font-medium inline-block w-full text-start">Email <br/>
                         <input class="w-full p-3 bg-inputGray" type="email" placeholder="johndoe@gmail.com"/>
                     </label> <br/><br/>
-                    <label class="text-myBlue font-medium">Password <br/>
+                    <label class="text-myBlue font-medium inline-block w-full text-start">Password <br/>
                         <input class="w-full p-3 bg-inputGray" type="password" placeholder="***************"/>
                     </label> <br/><br/>
                     <button class="w-full bg-btnYellow p-3 mb-3">Sign In</button>
