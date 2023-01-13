@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="w-1/2 bg-white  h-screen flex items-center justify-center">
-             <div class="w-4/6 text-center m-auto">
+             <div class="w-4/6 text-center m-auto flex flex-col">
                  <h1 class="text-4xl text-myBlue mb-5 place-self-start">Create Account</h1>
                  <form>
                     <div class="flex w-full justify-between mb-2">
@@ -53,7 +53,7 @@
                  </form>
              </div>
         </div>
-    </div>
+     </div>
     </div>
 </template>
 
