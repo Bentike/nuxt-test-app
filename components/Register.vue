@@ -13,7 +13,7 @@
              <div class="w-4/6 text-center m-auto">
                  <h1 class="text-4xl text-myBlue mb-5 place-self-start">Create Account</h1>
                  <form>
-                    <div class="flex w-full justify-between">
+                    <div class="flex w-full justify-between mb-2">
                         <div class="w-[47%]">
                             <label class="text-myBlue font-medium inline-block w-full text-start"> FirstName
                                 <input class="w-full p-3 bg-inputGray" type="text" placeholder="John">
@@ -24,11 +24,11 @@
                                 <input class="w-full p-3 bg-inputGray" type="text" placeholder="Doe">
                             </label>
                         </div>
-                    </div> <br>
-                    <label class="text-myBlue font-medium inline-block w-full text-start">Email <br/>
+                    </div>
+                    <label class="text-myBlue font-medium inline-block w-full text-start mb-2">Email <br/>
                         <input class="w-full p-3 bg-inputGray" type="email" placeholder="johndoe@gmail.com"/>
-                    </label> <br/><br/>
-                    <div class="flex w-full justify-between">
+                    </label>
+                    <div class="flex w-full justify-between mb-2">
                         <div class="w-[47%]">
                             <label class="text-myBlue font-medium inline-block w-full text-start"> Password
                                 <input class="w-full p-3 bg-inputGray" type="password" placeholder="**********">
@@ -39,7 +39,15 @@
                                 <input class="w-full p-3 bg-inputGray" type="passwrod" placeholder="**********">
                             </label>
                         </div>
-                    </div>   <br/><br/>
+                    </div>
+                    <div class="w-full text-start mb-2">
+                     <ul class="list-disc ml-4">
+                        <li class="text-[0.7rem] hover:text-listColor">Contains at least one uppercase letter</li>
+                        <li class="text-[0.7rem] hover:text-listColor">Contains at least one special character</li>
+                        <li class="text-[0.7rem] hover:text-listColor">Contains at least one number</li>
+                        <li class="text-[0.7rem] hover:text-listColor">Passowords are matching</li>
+                     </ul>
+                    </div>
                     <button class="w-full bg-btnYellow p-3 mb-3">Sign Up</button>
                     <p><span class="opacity-60">Don’t have an account?</span> <span class="text-lightBlue">Sign In</span></p>
                  </form>
