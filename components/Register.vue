@@ -4,7 +4,7 @@
         <div class="w-1/2 bg-myBlue h-screen flex items-center justify-center">
             <div class="w-4/6 text-center m-auto">
                  <Logo/>
-                 <h1 class="text-white text-xl">Welcome Back</h1>
+                 <h1 class="text-white text-xl">Welcome Aboard</h1>
                  <p class="text-white text-sm opacity-70">Just a couple of clicks and we start</p>
                  <Bar/>
             </div>
