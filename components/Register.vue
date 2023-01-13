@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="font-serif">
         <div class="w-full flex h-screen">
         <div class="w-1/2 bg-myBlue h-screen flex items-center justify-center">
             <div class="w-4/6 text-center m-auto">

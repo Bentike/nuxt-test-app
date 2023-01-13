@@ -1,6 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-const defaultTheme = require("tailwindcss/defaultTheme");
-
 module.exports = {
   content: [
     "./components/**/*.{js,vue,ts}",
@@ -9,14 +7,6 @@ module.exports = {
     "./plugins/**/*.{js,ts}",
     "./nuxt.config.{js,ts}",
   ],
-  purge: [
-    "./components/**/*.{vue,js}",
-    "./layouts/**/*.vue",
-    "./pages/**/*.vue",
-    "./plugins/**/*.{js,ts}",
-    "./nuxt.config.{js,ts}"
-  ],
-  darkMode: false, // or 'media' or 'class'
   theme: {
     colors: {
        "myBlue": "#18345E",
@@ -30,14 +20,12 @@ module.exports = {
     letterSpacing: {
        wide: '2.5px',
     },
+   
     extend: {
-      fontFamily: {
-        sans: ["Inter", ...defaultTheme.fontFamily.sans]
-      },
+      fontFamily:{
+        spectral: ["Spectral"]
+      }
     },
-  },
-  variants: {
-    extend: {}
   },
   plugins: [],
 }
