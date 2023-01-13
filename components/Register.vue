@@ -15,27 +15,27 @@
                  <form>
                     <div class="flex w-full justify-between mb-2">
                         <div class="w-[47%]">
-                            <label class="text-myBlue font-medium inline-block w-full text-start"> FirstName
+                            <label class="text-myBlue font-medium inline-block w-full text-start text-sm"> FirstName
                                 <input class="w-full p-3 bg-inputGray" type="text" placeholder="John">
                             </label>
                         </div>
                         <div class="w-[47%]">
-                            <label  class="text-myBlue font-medium inline-block w-full text-start"> LastName
+                            <label  class="text-myBlue font-medium inline-block w-full text-start text-sm"> LastName
                                 <input class="w-full p-3 bg-inputGray" type="text" placeholder="Doe">
                             </label>
                         </div>
                     </div>
-                    <label class="text-myBlue font-medium inline-block w-full text-start mb-2">Email <br/>
+                    <label class="text-myBlue font-medium inline-block w-full text-start mb-2 text-sm">Email <br/>
                         <input class="w-full p-3 bg-inputGray" type="email" placeholder="johndoe@gmail.com"/>
                     </label>
                     <div class="flex w-full justify-between mb-2">
                         <div class="w-[47%]">
-                            <label class="text-myBlue font-medium inline-block w-full text-start"> Password
+                            <label class="text-myBlue font-medium inline-block w-full text-start text-sm"> Password
                                 <input class="w-full p-3 bg-inputGray" type="password" placeholder="**********">
                             </label>
                         </div>
                         <div class="w-[47%]">
-                            <label  class="text-myBlue font-medium inline-block w-full text-start"> Confirm Password
+                            <label  class="text-myBlue font-medium inline-block w-full text-start text-sm"> Confirm Password
                                 <input class="w-full p-3 bg-inputGray" type="passwrod" placeholder="**********">
                             </label>
                         </div>
