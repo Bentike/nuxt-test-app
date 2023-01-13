@@ -1,6 +1,6 @@
 <template>
     <div class="flex justify-end relative">
-    <img src="~/assets/images/logo.png" />
+        <img src="~/assets/images/sapp.png" />
     </div>   
 </template>
 
