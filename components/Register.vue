@@ -49,7 +49,7 @@
                      </ul>
                     </div>
                     <button class="w-full bg-btnYellow p-3 mb-3">Sign Up</button>
-                    <p><span class="opacity-60">Already a member?</span> <span class="text-lightBlue">Sign In</span></p>
+                    <p><span class="opacity-60">Already a member?</span> <a href="/" class="cursor-pointer"><span class="text-lightBlue">Sign In</span></a></p>
                  </form>
              </div>
         </div>
